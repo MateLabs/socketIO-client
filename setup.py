@@ -10,7 +10,7 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
     'CHANGES.rst',
 ])
 setup(
-    name='socketIO-client',
+    name='MV-socketIO-client',
     version='0.7.2',
     description='A socket.io client library',
     long_description=DESCRIPTION,
@@ -21,10 +21,10 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Development Status :: 5 - Production/Stable',
     ],
-    keywords='socket.io node.js',
-    author='Roy Hyunjin Han',
-    author_email='rhh@crosscompute.com',
-    url='https://github.com/invisibleroads/socketIO-client',
+    keywords='',
+    author='Matelabs',
+    author_email='yb@matelabs.in',
+    url='https://github.com/MateLabs/socketIO-client',
     install_requires=[
         'requests>=2.7.0',
         'six',

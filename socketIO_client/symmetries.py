@@ -1,5 +1,5 @@
 from six import indexbytes
-
+import traceback
 
 try:
     from ssl import SSLError
@@ -15,8 +15,13 @@ except NameError:
 
 
 def get_byte(x, index):
-    return indexbytes(x, index)
-
+    try:
+        return indexbytes(x, index)
+    except Exception as e:
+        print("=============Inside getbyte==============")
+        stack_trace = traceback.format_exec
+        print(stack_trace)
+        return 54
 
 def get_character(x, index):
     return chr(get_byte(x, index))
