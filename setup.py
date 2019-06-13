@@ -10,7 +10,7 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
     'CHANGES.rst',
 ])
 setup(
-    name='MV-socketIO-client',
+    name='socketIO-client-MV',
     version='0.7.2',
     description='A socket.io client library',
     long_description=DESCRIPTION,

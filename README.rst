@@ -6,8 +6,7 @@ socketIO-client
 ===============
 Here is a `socket.io <http://socket.io>`_ client library for Python.  You can use it to write test code for your socket.io server.
 
-Please note that this version implements `socket.io protocol 1.x <https://github.com/automattic/socket.io-protocol>`_, which is not backwards compatible.  If you want to communicate using `socket.io protocol 0.9 <https://github.com/learnboost/socket.io-spec>`_ (which is compatible with `gevent-socketio <https://github.com/abourget/gevent-socketio>`_), please use `socketIO-client 0.5.7.2 <https://pypi.python.org/pypi/socketIO-client/0.5.7.2>`_.
-
+This is a forked version of socketIO_client. You can find the original `here <https://github.com/invisibleroads/socketIO-client>`_.
 
 Installation
 ------------
