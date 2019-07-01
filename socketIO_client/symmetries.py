@@ -19,7 +19,7 @@ def get_byte(x, index):
         return indexbytes(x, index)
     except Exception as e:
         print("=============Inside getbyte==============")
-        stack_trace = traceback.format_exec
+        stack_trace = traceback.format_exc()
         print(stack_trace)
         return 54
 

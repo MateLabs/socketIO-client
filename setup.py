@@ -29,6 +29,7 @@ setup(
         'requests>=2.7.0',
         'six',
         'websocket-client',
+        'invisibleroads-macros'
     ],
     tests_require=[
         'nose',
